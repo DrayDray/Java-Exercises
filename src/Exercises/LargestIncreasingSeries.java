@@ -2,8 +2,7 @@ package Exercises;
 
 import java.util.Random;
 
-//Within a series of random numbers
-//Returning the longest INCREASING SERIES 
+//Returning the longest INCREASING SERIES within a series of random numbers
 
 public class LargestIncreasingSeries {
 
@@ -39,7 +38,7 @@ public class LargestIncreasingSeries {
 		int maxIndex = 0;
 		if (randomNumbersArray.length > 1){
 
-			//go through each number in the array (except for the first) and see if it's larger than the previous one
+			//Go through each number in the array (except for the first) and see if it's larger than the previous one
 			for (int index = 1; index < randomNumbersArray.length; index++) {
 				if (randomNumbersArray[index] > randomNumbersArray[index-1]){
 					currentIncSeries++;
