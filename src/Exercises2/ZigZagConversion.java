@@ -34,7 +34,6 @@ public class ZigZagConversion {
 			}
 
 			int lengthOfString = s.length();
-
 			//loop through all of the letters and add them to the relevant "row" representation in our array
 			int currentRow = 0;
 			
